@@ -17,7 +17,7 @@ exemplo:
 var1: DB 'a' <- declara var1 como um char que contém 'a'
 var2: DB "Samuel" <- declara 'var2' como uma string que contém a palavra "Samuel"
 
-ATENÇÃO: Usar 'aspas simples' para chars e "aspas duplas para strings"
+ATENÇÃO: Usar 'aspas simples' para chars e "aspas duplas" para strings
 ## INITD
 Seção: .data
 Utilizado para definição de um array/lista de inteiros
