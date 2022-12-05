@@ -1,5 +1,5 @@
 # CompSim
-Registro de comandos do Compsim
+Registro de instruções do processador Cariri
 
 # Declaração de variáveis
 ## DD
