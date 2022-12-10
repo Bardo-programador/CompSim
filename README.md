@@ -74,3 +74,23 @@ exemplo:
 .bss
 
 ORG 10 <- a parti do segmento bss ele cria 10 posições de memórias livres
+
+## LDA
+
+Seção: .code
+
+Utilizado para ler um dado a partir de um endereço de memória ou variável e enviar o dado ao registrador acumulador(AC)
+
+exemplo:
+LDA  @100 <- armazena o dado na posição 100 da memório no AC
+LDA var1 <- armazena o dado da variável "var1" no AC
+
+## STA 
+
+Armazena dados salvos no AC dentro de uma variável/posição de memória
+
+exemplo:
+STA var1 <- armazena o valor de AC em var1
+STA @100 <- armazena o valor de AC na posição 100
+
+
